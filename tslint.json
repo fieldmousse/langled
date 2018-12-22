@@ -1,0 +1,24 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:latest"
+    ],
+    "jsRules": {
+        "no-implicit-dependencies": [
+            true,
+            "dev"
+        ],
+        "object-literal-sort-keys": false,
+        "prefer-conditional-expression": false
+    },
+    "rules": {
+        "no-implicit-dependencies": [
+            true,
+            "dev"
+        ],
+        "prefer-conditional-expression": false,
+        "no-object-literal-type-assertion": false,
+        "object-literal-sort-keys": false
+    },
+    "rulesDirectory": []
+}
